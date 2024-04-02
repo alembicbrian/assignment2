@@ -1,5 +1,11 @@
-import 'dart:html';
+
+//QUIZ ONE.
 
 void main() {
-  querySelector('#output')?.text = 'Your Dart app is running.';
+  double Num1 = 10;
+  double Num2 = 20;
+  double answer = addTwo(Num1, Num2);
+  print(answer);
 }
+
+double addTwo(Num1, Num2) => Num1 + Num2;
